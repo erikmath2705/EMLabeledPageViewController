@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SourceViewController.h
 //  EMLabeledPageViewController
 //
 //  Created by Erik Mathisen on 06/03/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EMLabeledPageViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface SourceViewController : UIViewController
 
 @end
-
