@@ -10,6 +10,10 @@
 
 @interface EMLabeledPageViewController ()
 
+@property (nonatomic, strong, readwrite) UIPageViewController *pageViewController;
+@property (nonatomic, strong, readwrite) NSArray *navViewControllers;
+@property (nonatomic, strong, readwrite) EMNavigationView *navigationView;
+
 @end
 
 @implementation EMLabeledPageViewController
@@ -87,7 +91,7 @@
         } else
         {
             // Invalid arguments
-            [NSException raise:@"Invalid dictionaries provided" format:@"Each dictionary should contain one UIViewController subclass along with an NSString description"];
+            [NSException raise:@"Invalid arguments" format:@"Expecting 3 strings and 3 viewcontroller subclasses"];
         }
     }
     return self;

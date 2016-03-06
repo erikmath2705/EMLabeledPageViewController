@@ -17,8 +17,8 @@
 -(void)setBoldIndex:(NSInteger)boldLabelIndex;
 
 // Properties
-@property (nonatomic, strong) UILabel *leftLabel;
-@property (nonatomic, strong) UILabel *centerLabel;
-@property (nonatomic, strong) UILabel *rightLabel;
+@property (nonatomic, strong, readonly) UILabel *leftLabel;
+@property (nonatomic, strong, readonly) UILabel *centerLabel;
+@property (nonatomic, strong, readonly) UILabel *rightLabel;
 
 @end

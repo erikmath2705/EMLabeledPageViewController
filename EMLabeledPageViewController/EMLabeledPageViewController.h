@@ -20,11 +20,11 @@
    rightViewController:(UIViewController *)rightViewController;
 
 // Properies
-@property (nonatomic, strong) UIPageViewController *pageViewController;
-@property (nonatomic, strong) NSArray *navViewControllers;
+@property (nonatomic, strong, readonly) UIPageViewController *pageViewController;
+@property (nonatomic, strong, readonly) NSArray *navViewControllers;
 
 // Control
-@property (nonatomic, strong) EMNavigationView *navigationView;
+@property (nonatomic, strong, readonly) EMNavigationView *navigationView;
 
 // Navigation view properties
 @property (nonatomic, strong) UIColor *navigationViewTextColor;

@@ -8,6 +8,14 @@
 
 #import "EMNavigationView.h"
 
+@interface EMNavigationView ()
+
+@property (nonatomic, strong, readwrite) UILabel *leftLabel;
+@property (nonatomic, strong, readwrite) UILabel *centerLabel;
+@property (nonatomic, strong, readwrite) UILabel *rightLabel;
+
+@end
+
 @implementation EMNavigationView
 
 -(id)initWithLeftTitle:(NSString *)leftTitle centerTitle:(NSString *)centerTitle rightTitle:(NSString *)rightTitle
