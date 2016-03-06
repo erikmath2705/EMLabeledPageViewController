@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035B99CA1C8C7C1300AE44A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B99C91C8C7C1300AE44A9 /* main.m */; };
+		035B99CD1C8C7C1300AE44A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B99CC1C8C7C1300AE44A9 /* AppDelegate.m */; };
+		035B99D01C8C7C1300AE44A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B99CF1C8C7C1300AE44A9 /* ViewController.m */; };
+		035B99D31C8C7C1300AE44A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035B99D11C8C7C1300AE44A9 /* Main.storyboard */; };
+		035B99D51C8C7C1300AE44A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035B99D41C8C7C1300AE44A9 /* Assets.xcassets */; };
+		035B99D81C8C7C1400AE44A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035B99D61C8C7C1400AE44A9 /* LaunchScreen.storyboard */; };
+		035B99E31C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B99E21C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests.m */; };
+		035B99EE1C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B99ED1C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035B99DF1C8C7C1400AE44A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035B99BD1C8C7C1300AE44A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035B99C41C8C7C1300AE44A9;
+			remoteInfo = EMLabeledPageViewController;
+		};
+		035B99EA1C8C7C1400AE44A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035B99BD1C8C7C1300AE44A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035B99C41C8C7C1300AE44A9;
+			remoteInfo = EMLabeledPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035B99C51C8C7C1300AE44A9 /* EMLabeledPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMLabeledPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		035B99C91C8C7C1300AE44A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		035B99CB1C8C7C1300AE44A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		035B99CC1C8C7C1300AE44A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		035B99CE1C8C7C1300AE44A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		035B99CF1C8C7C1300AE44A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		035B99D21C8C7C1300AE44A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035B99D41C8C7C1300AE44A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		035B99D71C8C7C1400AE44A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		035B99D91C8C7C1400AE44A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035B99DE1C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMLabeledPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035B99E21C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMLabeledPageViewControllerTests.m; sourceTree = "<group>"; };
+		035B99E41C8C7C1400AE44A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035B99E91C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMLabeledPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035B99ED1C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMLabeledPageViewControllerUITests.m; sourceTree = "<group>"; };
+		035B99EF1C8C7C1400AE44A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035B99C21C8C7C1300AE44A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035B99DB1C8C7C1400AE44A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035B99E61C8C7C1400AE44A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035B99BC1C8C7C1300AE44A9 = {
+			isa = PBXGroup;
+			children = (
+				035B99C71C8C7C1300AE44A9 /* EMLabeledPageViewController */,
+				035B99E11C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests */,
+				035B99EC1C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests */,
+				035B99C61C8C7C1300AE44A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035B99C61C8C7C1300AE44A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035B99C51C8C7C1300AE44A9 /* EMLabeledPageViewController.app */,
+				035B99DE1C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests.xctest */,
+				035B99E91C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035B99C71C8C7C1300AE44A9 /* EMLabeledPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				035B99CB1C8C7C1300AE44A9 /* AppDelegate.h */,
+				035B99CC1C8C7C1300AE44A9 /* AppDelegate.m */,
+				035B99CE1C8C7C1300AE44A9 /* ViewController.h */,
+				035B99CF1C8C7C1300AE44A9 /* ViewController.m */,
+				035B99D11C8C7C1300AE44A9 /* Main.storyboard */,
+				035B99D41C8C7C1300AE44A9 /* Assets.xcassets */,
+				035B99D61C8C7C1400AE44A9 /* LaunchScreen.storyboard */,
+				035B99D91C8C7C1400AE44A9 /* Info.plist */,
+				035B99C81C8C7C1300AE44A9 /* Supporting Files */,
+			);
+			path = EMLabeledPageViewController;
+			sourceTree = "<group>";
+		};
+		035B99C81C8C7C1300AE44A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035B99C91C8C7C1300AE44A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		035B99E11C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				035B99E21C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests.m */,
+				035B99E41C8C7C1400AE44A9 /* Info.plist */,
+			);
+			path = EMLabeledPageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		035B99EC1C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				035B99ED1C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests.m */,
+				035B99EF1C8C7C1400AE44A9 /* Info.plist */,
+			);
+			path = EMLabeledPageViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035B99C41C8C7C1300AE44A9 /* EMLabeledPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035B99F21C8C7C1400AE44A9 /* Build configuration list for PBXNativeTarget "EMLabeledPageViewController" */;
+			buildPhases = (
+				035B99C11C8C7C1300AE44A9 /* Sources */,
+				035B99C21C8C7C1300AE44A9 /* Frameworks */,
+				035B99C31C8C7C1300AE44A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMLabeledPageViewController;
+			productName = EMLabeledPageViewController;
+			productReference = 035B99C51C8C7C1300AE44A9 /* EMLabeledPageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035B99DD1C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035B99F51C8C7C1400AE44A9 /* Build configuration list for PBXNativeTarget "EMLabeledPageViewControllerTests" */;
+			buildPhases = (
+				035B99DA1C8C7C1400AE44A9 /* Sources */,
+				035B99DB1C8C7C1400AE44A9 /* Frameworks */,
+				035B99DC1C8C7C1400AE44A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035B99E01C8C7C1400AE44A9 /* PBXTargetDependency */,
+			);
+			name = EMLabeledPageViewControllerTests;
+			productName = EMLabeledPageViewControllerTests;
+			productReference = 035B99DE1C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		035B99E81C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035B99F81C8C7C1400AE44A9 /* Build configuration list for PBXNativeTarget "EMLabeledPageViewControllerUITests" */;
+			buildPhases = (
+				035B99E51C8C7C1400AE44A9 /* Sources */,
+				035B99E61C8C7C1400AE44A9 /* Frameworks */,
+				035B99E71C8C7C1400AE44A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035B99EB1C8C7C1400AE44A9 /* PBXTargetDependency */,
+			);
+			name = EMLabeledPageViewControllerUITests;
+			productName = EMLabeledPageViewControllerUITests;
+			productReference = 035B99E91C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035B99BD1C8C7C1300AE44A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Erik Mathisen";
+				TargetAttributes = {
+					035B99C41C8C7C1300AE44A9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					035B99DD1C8C7C1400AE44A9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 035B99C41C8C7C1300AE44A9;
+					};
+					035B99E81C8C7C1400AE44A9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 035B99C41C8C7C1300AE44A9;
+					};
+				};
+			};
+			buildConfigurationList = 035B99C01C8C7C1300AE44A9 /* Build configuration list for PBXProject "EMLabeledPageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035B99BC1C8C7C1300AE44A9;
+			productRefGroup = 035B99C61C8C7C1300AE44A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035B99C41C8C7C1300AE44A9 /* EMLabeledPageViewController */,
+				035B99DD1C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests */,
+				035B99E81C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035B99C31C8C7C1300AE44A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035B99D81C8C7C1400AE44A9 /* LaunchScreen.storyboard in Resources */,
+				035B99D51C8C7C1300AE44A9 /* Assets.xcassets in Resources */,
+				035B99D31C8C7C1300AE44A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035B99DC1C8C7C1400AE44A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035B99E71C8C7C1400AE44A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035B99C11C8C7C1300AE44A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035B99D01C8C7C1300AE44A9 /* ViewController.m in Sources */,
+				035B99CD1C8C7C1300AE44A9 /* AppDelegate.m in Sources */,
+				035B99CA1C8C7C1300AE44A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035B99DA1C8C7C1400AE44A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035B99E31C8C7C1400AE44A9 /* EMLabeledPageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035B99E51C8C7C1400AE44A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035B99EE1C8C7C1400AE44A9 /* EMLabeledPageViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035B99E01C8C7C1400AE44A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035B99C41C8C7C1300AE44A9 /* EMLabeledPageViewController */;
+			targetProxy = 035B99DF1C8C7C1400AE44A9 /* PBXContainerItemProxy */;
+		};
+		035B99EB1C8C7C1400AE44A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035B99C41C8C7C1300AE44A9 /* EMLabeledPageViewController */;
+			targetProxy = 035B99EA1C8C7C1400AE44A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035B99D11C8C7C1300AE44A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035B99D21C8C7C1300AE44A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035B99D61C8C7C1400AE44A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035B99D71C8C7C1400AE44A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035B99F01C8C7C1400AE44A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		035B99F11C8C7C1400AE44A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035B99F31C8C7C1400AE44A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMLabeledPageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.EMLabeledPageViewController.EMLabeledPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		035B99F41C8C7C1400AE44A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMLabeledPageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.EMLabeledPageViewController.EMLabeledPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		035B99F61C8C7C1400AE44A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EMLabeledPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.EMLabeledPageViewController.EMLabeledPageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMLabeledPageViewController.app/EMLabeledPageViewController";
+			};
+			name = Debug;
+		};
+		035B99F71C8C7C1400AE44A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EMLabeledPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.EMLabeledPageViewController.EMLabeledPageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMLabeledPageViewController.app/EMLabeledPageViewController";
+			};
+			name = Release;
+		};
+		035B99F91C8C7C1400AE44A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EMLabeledPageViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.EMLabeledPageViewController.EMLabeledPageViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMLabeledPageViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		035B99FA1C8C7C1400AE44A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EMLabeledPageViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.EMLabeledPageViewController.EMLabeledPageViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMLabeledPageViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035B99C01C8C7C1300AE44A9 /* Build configuration list for PBXProject "EMLabeledPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035B99F01C8C7C1400AE44A9 /* Debug */,
+				035B99F11C8C7C1400AE44A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035B99F21C8C7C1400AE44A9 /* Build configuration list for PBXNativeTarget "EMLabeledPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035B99F31C8C7C1400AE44A9 /* Debug */,
+				035B99F41C8C7C1400AE44A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035B99F51C8C7C1400AE44A9 /* Build configuration list for PBXNativeTarget "EMLabeledPageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035B99F61C8C7C1400AE44A9 /* Debug */,
+				035B99F71C8C7C1400AE44A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035B99F81C8C7C1400AE44A9 /* Build configuration list for PBXNativeTarget "EMLabeledPageViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035B99F91C8C7C1400AE44A9 /* Debug */,
+				035B99FA1C8C7C1400AE44A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035B99BD1C8C7C1300AE44A9 /* Project object */;
+}
