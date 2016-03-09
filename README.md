@@ -1,4 +1,4 @@
 # EMLabeledPageViewController
 A project to create a UIPageViewController with animated headers
 
-![Screenshot](https://github.com/erikmath2705/EMLabeledPageViewController/blob/master/screenshot1.png)
+![Screenshot](https://github.com/erikmath2705/EMLabeledPageViewController/blob/master/demo.gif)
